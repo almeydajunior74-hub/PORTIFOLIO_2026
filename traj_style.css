@@ -1,0 +1,81 @@
+:root {
+    --roxo: #640dd5;
+    --roxo-claro: #9413e5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(fundo-sobre.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+section {
+    margin-top: 60px;
+}
+
+.container {
+    max-width: 1040px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(244, 242, 245);
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.hero-titulo {
+    padding: 16px;
+    margin-bottom: 19px;
+    text-align: center;
+}
+
+h1 {
+    margin-left: 1rem;
+    font-size: 40px;
+}
+
+.inicio {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+span {
+    color: var(--roxo);
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao-voltar {
+    display: block;
+    margin: 60px auto;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, var(--roxo), #49b9ec);
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 0 8px 20px rgba(14, 165, 233, .4);
+    text-decoration: none;
+}
+
+footer {
+    background: var(--roxo);
+    color: rgba(255, 255, 255, .7);
+    text-align: center;
+    padding: 15px;
+}
