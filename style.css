@@ -12,6 +12,10 @@
     --cinza:#f8f8f8;
     --branco:#fff;
 }
+.selecao{
+    -webkit-user-select: none; 
+     user-select: none; 
+}
 p{
     font-size: 20px;
 }
@@ -69,11 +73,9 @@ header{
 .nav-menu a:hover,
 .nav-menu a.active{
     color:var(--preto);
-    border-bottom:2px solid var(--preto);
+    border-bottom:1px solid var(--preto);
     padding-bottom:4px;
 }
-
-/* SOBRE */
 .hero-section{
     padding:150px 0 250px;
 }
@@ -182,7 +184,7 @@ header{
     color:var(--roxo-claro);
 }
 
-/* PROJETOS */
+
 .projects-section{
     background:var(--cinza);
     padding:60px 0; 
@@ -197,19 +199,20 @@ header{
 .projects-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:5px;
+    gap:9px;
+    padding: 20px;
 }
 
 .project-card{
     background:var(--branco);
-    border-radius:8px;
+    border-radius:30px;
     overflow:hidden;
     box-shadow:0 4px 15px rgba(0,0,0,.05);
-    transition:.3s;
+    transition:0.7s;
 }
 
 .project-card:hover{
-    transform:translateY(-5px);
+    transform:translateY(-40px);
     border: solid var(--roxo)
 }
 
@@ -257,15 +260,12 @@ header{
 #contactForm{
     display:flex;
     flex-direction:column;
-    gap:15px;
-    
+    gap:15px;  
 }
-
 .form-row{
     display:flex;
     gap:15px;
 }
-
 .form-row input,
 #contactForm textarea{
     width:100%;
@@ -275,7 +275,6 @@ header{
     background:var(--cinza);
     font-size:14px;
 }
-
 .social-links{
     display:flex;
     gap:220px;
