@@ -212,8 +212,8 @@ header{
 }
 
 .project-card:hover{
-    transform:translateY(-40px);
-    border: solid var(--roxo)
+    transform:translateY(-30px);
+    border: 1px solid var(--roxo)
 }
 
 .project-img-placeholder,
