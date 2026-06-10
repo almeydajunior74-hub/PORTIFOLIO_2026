@@ -209,10 +209,11 @@ header{
     overflow:hidden;
     box-shadow:0 4px 15px rgba(0,0,0,.05);
     transition:0.7s;
+    border: 1px solid transparent;
 }
 
 .project-card:hover{
-    transform:translateY(-30px);
+    transform:translateY(-20px);
     border: 1px solid var(--roxo)
 }
 
